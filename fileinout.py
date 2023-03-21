@@ -17,7 +17,7 @@ for data in range(1, 11):
 file.close()
 
 file = open("test.txt", "r")
-lines = file.readline()
+lines = file.readlines()
 for line in lines:
     print(line)
 file.close()
